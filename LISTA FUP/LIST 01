@@ -191,3 +191,26 @@ int main()
 
     return 0;
 }
+
+
+
+
+QUESTÃO 09:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float c, k;
+
+    printf("Escreva a temperatura em graus Celsius: ");
+    scanf("%f", &c);
+
+    k = c + 273.15;
+
+    printf("O temperatura em Kelvin eh:%f", k);
+
+    return 0;
+}
