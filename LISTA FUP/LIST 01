@@ -116,3 +116,29 @@ int main()
 
     return 0;
 }
+
+
+
+
+
+
+QUESTÃO 06:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float tmpcelsius, tmpfah;
+
+    printf("Escreva o valor em graus Celsius:");
+    scanf("%f", &tmpcelsius);
+
+    tmpfah = tmpcelsius * (9.0/5.0) + 32.0;
+
+    printf("O valor em Fahrenheit eh:%f", tmpfah);
+
+
+    return 0;
+}
