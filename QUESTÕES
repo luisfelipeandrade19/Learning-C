@@ -92,3 +92,28 @@ int main()
     return 0;
 }
 
+
+
+
+
+
+QUESTÃO 05:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float resultado, n1;
+
+    printf("Escreva um numero:");
+    scanf("%f", &n1);
+
+    resultado = n1/5;
+
+    printf("A quinta parte desse numero eh:%f", resultado);
+
+    return 0;
+}
+
