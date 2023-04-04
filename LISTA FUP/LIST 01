@@ -1,0 +1,118 @@
+QUESTÃO 01:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int numero;
+
+    printf("Escreva um numero inteiro:");
+    scanf("%d", &numero);
+
+
+    printf("%d", numero);
+
+    return 0;
+}
+
+
+
+
+QUESTÃO 02:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float numero;
+
+    printf("Escreva um numero inteiro:");
+    scanf("%f", &numero);
+
+
+    printf("%f", numero);
+
+    return 0;
+}
+
+
+
+
+
+QUESTÃO 03:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b, c, soma;
+
+    printf("Escreva o valor de a: \n");
+    scanf("%d", &a);
+
+    printf("Escreva o valor de b: \n");
+    scanf("%d", &b);
+
+    printf("Escreva o valor de c: \n");
+    scanf("%d", &c);
+
+    soma = (a + b) + c;
+
+    printf("A soma dos valores eh:%d", soma);
+
+
+
+    return 0;
+}
+
+
+
+
+QUESTÃO 04:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    int resultado, n1;
+
+    printf("Escreva um numero inteiro:");
+    scanf("%d", &n1);
+
+    resultado = n1*n1;
+
+    printf("O resultado eh:%d", resultado);
+   
+   
+    return 0;
+}
+
+
+
+
+
+
+QUESTÃO 05:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float resultado, n1;
+
+    printf("Escreva um numero:");
+    scanf("%f", &n1);
+
+    resultado = n1/5;
+
+    printf("A quinta parte desse numero eh:%f", resultado);
+
+    return 0;
+}
