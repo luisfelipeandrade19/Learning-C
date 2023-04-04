@@ -1,0 +1,17 @@
+QUESTÃO 01:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int numero;
+
+    printf("Escreva um numero inteiro:");
+    scanf("%d", &numero);
+
+
+    printf("%d", numero);
+
+    return 0;
+}
