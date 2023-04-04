@@ -15,3 +15,24 @@ int main()
 
     return 0;
 }
+
+
+
+
+QUESTÃO 02:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float numero;
+
+    printf("Escreva um numero inteiro:");
+    scanf("%f", &numero);
+
+
+    printf("%f", numero);
+
+    return 0;
+}
