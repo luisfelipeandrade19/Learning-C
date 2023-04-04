@@ -36,3 +36,35 @@ int main()
 
     return 0;
 }
+
+
+
+
+
+QUESTÃO 03:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b, c, soma;
+
+    printf("Escreva o valor de a: \n");
+    scanf("%d", &a);
+
+    printf("Escreva o valor de b: \n");
+    scanf("%d", &b);
+
+    printf("Escreva o valor de c: \n");
+    scanf("%d", &c);
+
+    soma = (a + b) + c;
+
+    printf("A soma dos valores eh:%d", soma);
+
+
+
+    return 0;
+}
+
